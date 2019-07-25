@@ -6,5 +6,5 @@
 Репозиторий GitHub: [https://github.com/apple/swift](https://github.com/apple/swift).
 
 * [Строки](strings.md)
+* [Коллекции](collections.md)
 * [Тип Data -- буфер в памяти](data.md)
-
