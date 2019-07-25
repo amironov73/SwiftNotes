@@ -7,4 +7,5 @@
 
 * [Строки](strings.md)
 * [Коллекции](collections.md)
+* [Функции](functions.md)
 * [Тип Data -- буфер в памяти](data.md)

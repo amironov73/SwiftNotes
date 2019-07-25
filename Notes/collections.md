@@ -34,7 +34,7 @@ var array5 = [1, 2, 3]
 
 Свойства массива:
 
-* `var count: Int` -- количество элементов
+* `var count: Int` -- количество элементов в данный момент
 * `var capacity: Int` -- ёмкость массива
 * `var description: String` -- описание в виде `[1, 2, 3]`
 * `var debugDescription: String` -- то же самое
@@ -75,7 +75,6 @@ for (index, value) in array {
 var array1 = [1, 2, 3, 4, 5, 6]
 array1.forEach{ print($0) }
 ```
-
 
 Сложение массивов:
 
