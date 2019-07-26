@@ -8,4 +8,5 @@
 * [Строки](strings.md)
 * [Коллекции](collections.md)
 * [Функции](functions.md)
+* [Опциональный тип](optional.md)
 * [Тип Data -- буфер в памяти](data.md)
