@@ -11,6 +11,7 @@
 * [Коллекции](collections.md)
 * [Функции](functions.md)
 * [Обработка ошибок](errors.md)
+* [Тип Result](result.md)
 * [Классы и структуры](classes.md)
 * [Опциональный тип](optional.md)
 * [Кортежи](tuples.md)

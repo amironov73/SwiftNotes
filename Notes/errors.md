@@ -123,3 +123,5 @@ func processFile(filename: String) throws {
   }
 }
 ```
+
+В Swift 5 был предложен ещё один способ обработки ошибок -- тип [Result](result.md).
