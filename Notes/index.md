@@ -15,6 +15,7 @@
 * [Классы и структуры](classes.md)
 * [Опциональный тип](optional.md)
 * [Кортежи](tuples.md)
+* [Контроль доступа](access.md)
 * [Unsafe](unsafe.md)
 * [Документирование кода](doccoments.md)
 * [Тип Data -- буфер в памяти](data.md)
