@@ -10,6 +10,7 @@
 * [Строки](strings.md)
 * [Коллекции](collections.md)
 * [Функции](functions.md)
+* [Шаблоны](templates.md)
 * [Обработка ошибок](errors.md)
 * [Тип Result](result.md)
 * [Классы и структуры](classes.md)
