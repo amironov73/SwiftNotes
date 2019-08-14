@@ -75,3 +75,29 @@ if case .success(let count) = result {
 let result = doSomething(command: "A").map{"I got \($0)"}
 print(result) // Выведет: success("I got 10")
 ```
+
+С помощью `flatMap` удобно организовывать цепочки вызовов, в которых каждый последующий выполняется только при условии, что все предыдущие выдали `success`:
+
+```swift
+func kneadTheDough(flavor: String) -> Result<String, Error> {
+    return .success("\(flavor) dough")
+}
+
+func putIntoTheOven(dough: String) -> Result<String, Error> {
+    return .success("\(dough) in the oven")
+}
+
+func bakeTheCake(cake: String) -> Result<String, Error> {
+    return .success("baked \(cake)")
+}
+
+func tada(message: String) -> Result<String, Error> {
+    print(message)
+    return .success(message)
+}
+
+kneadTheDough(flavor: "vanilla")
+    .flatMap{putIntoTheOven(dough: $0)}
+    .flatMap{bakeTheCake(cake: $0)}
+    .flatMap{tada(message: $0)}
+```

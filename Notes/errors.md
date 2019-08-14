@@ -109,6 +109,9 @@ do {
 let photo = try! loadImage(atPath: "./Resources/John.jpg")
 ```
 
+Функции `rethrows`. Функция помечается ключевым словом `rethrows`, если её аргументы (замыкания) выбрасывают ошибки (`throws`).
+
+
 Действия по очистке (Cleanup)
 
 ```swift
