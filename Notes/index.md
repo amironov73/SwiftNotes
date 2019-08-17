@@ -22,4 +22,5 @@
 * [Unsafe](unsafe.md)
 * [Документирование кода](doccoments.md)
 * [Препроцессор](preprocessor.md)
+* [Swift как скрипт](scripting.md)
 * [Тип Data -- буфер в памяти](data.md)
